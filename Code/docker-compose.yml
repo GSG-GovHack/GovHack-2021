@@ -1,0 +1,16 @@
+version: "3"
+services: 
+  clover-api: 
+    build: backend/
+    ports:
+      - 8000:8000
+    environment: 
+      - CLOVERAPI_DB_HOST=mongodb://mongo:27017/cloverdb
+  mongo:
+    image: mongo:latest
+    ports:
+      - 27017:27017
+    volumes:
+      - mongo:/data/db
+volumes:
+  mongo:

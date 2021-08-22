@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+tortoise = "*"
+mongoengine = "*"
+geojson = "*"
+uvicorn = "*"
+pydantic = {extras = ["email"], version = "*"}
+dynaconf = "*"
+typing-extensions = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

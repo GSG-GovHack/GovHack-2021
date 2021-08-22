@@ -1,0 +1,5 @@
+title: Clover API
+version: 0.0.1
+description: Project Clover API
+db_host: mongodb://localhost:27017/cloverdb
+place_search_radius: 1000
