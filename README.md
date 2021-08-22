@@ -8,4 +8,4 @@ Use docker to bring up and load the database dump (code/data/db_export) into mon
 clover.gsg.to
 
 ## Video Link 
-Currently waiting as of 3:08:45 
+Currently waiting as of 3:08:45 (upload started at ~2:20)
