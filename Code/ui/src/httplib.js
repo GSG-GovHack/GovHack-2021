@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const http = axios.create({
-    baseURL: 'http://localhost:8000',
+    baseURL: 'http://clover-api:8000',
     timeout: 1000,
 });
 

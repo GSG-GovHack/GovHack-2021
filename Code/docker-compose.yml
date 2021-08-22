@@ -12,5 +12,9 @@ services:
       - 27017:27017
     volumes:
       - mongo:/data/db
+  clover-ui:
+    build: ui/
+    ports:
+      - 3000:3000
 volumes:
   mongo:
